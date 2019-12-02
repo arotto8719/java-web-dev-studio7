@@ -1,6 +1,10 @@
 package org.launchcode.studio7;
 
-public class DVD {
+public class DVD extends CD implements spin {
+
+    public DVD(String name) {
+        super (name);
+    }
 
     // TODO: Implement your custom interface.
 
